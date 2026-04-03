@@ -27,7 +27,7 @@ const App: React.FC = () => {
   }, [isBreathing]);
 
   const moods = ['😊', '😌', '😐', '😔', '😢'];
-  const moodLabels = ['Mohit', 'Good', 'Okay', 'Low', 'Difficult'];
+  const moodLabels = ['Vidit', 'Good', 'Okay', 'Low', 'Difficult'];
 
   const copingStrategies = [
     { icon: '🧘', title: '5-4-3-2-1 Grounding', description: 'Name 5 things you see, 4 you feel, 3 you hear, 2 you smell, 1 you taste.' },
