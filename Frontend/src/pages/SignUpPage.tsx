@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-const LoginPage = () => {
+const SignUpPage = () => {
   return (
     <div className="min-h-[100vh] flex">
       
@@ -16,10 +16,10 @@ const LoginPage = () => {
         <div className="bg-white p-10 rounded-2xl shadow-xl w-[400px]">
           
           <h2 className="text-2xl font-semibold text-center mb-2">
-            Login your Account
+            Create an Account
           </h2>
           <p className="text-center text-gray-500 mb-6">
-            Login to continue to Brainly
+            Sign up to continue to Brainly
           </p>
 
           {/* INPUTS */}
@@ -38,16 +38,16 @@ const LoginPage = () => {
 
           {/* BUTTON */}
           <button className="w-full mt-6 py-2 bg-gradient-to-r from-blue-400 to-blue-700 text-white rounded-lg font-semibold hover:opacity-90">
-            Login
+            Sign Up
           </button>
 
           {/* LOGIN LINK */}
           <p className="text-center text-sm text-gray-500 mt-4">
-            Don't have an account?{" "}
+            Already have an account?{" "}
             <span className="text-blue-600 cursor-pointer">
-              <Link to="/signup">
-                Create new account
-            </Link>
+                <Link to="/login">
+                    Login
+                </Link>
             </span>
           </p>
 
@@ -55,7 +55,7 @@ const LoginPage = () => {
           <div className="flex items-center my-4">
             <hr className="flex-grow border-gray-300" />
             <span className="px-2 text-gray-400 text-sm">
-              or login with
+              or sign up with
             </span>
             <hr className="flex-grow border-gray-300" />
           </div>
@@ -79,4 +79,4 @@ const LoginPage = () => {
   );
 };
 
-export default LoginPage;
+export default SignUpPage;
