@@ -1,0 +1,31 @@
+# Dependencies
+node_modules/
+Frontend/node_modules/
+Backend/node_modules/
+
+# Build files
+dist/
+build/
+Frontend/dist/
+Backend/dist/
+
+# Environment variables
+.env
+Backend/.env
+Frontend/.env
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+
+# Vite cache (IMPORTANT for your error)
+Frontend/node_modules/.vite/
